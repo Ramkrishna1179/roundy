@@ -1,6 +1,5 @@
 import React from "react";
 import Roundy from "roundy";
-import "video.js/dist/video-js.css";
 import "../index.css";
 class Year extends React.Component {
   state = {
@@ -33,8 +32,12 @@ class Year extends React.Component {
   render() {
     const { value, year } = this.state;
     return (
-      <div className="m-5 text-center">
-        <p className="text">{year}</p>
+      <div className="text-center  shadow-lg rounded py-5 bg-light  mx-3">
+      <div className="Value text-center">
+      <p className="m-0">{year}</p>
+      <h1 className="m-0">{"Year"}</h1>
+      </div>
+
         <Roundy
           value={value}
           min={1}
@@ -46,8 +49,8 @@ class Year extends React.Component {
           onChange={this.handleChange}
           arcSize={360}
           rotationOffset={-90}
-          radius={135}
-          strokeWidth={35}
+          radius={115}
+          strokeWidth={25}
           thumbSize={20}
           allowClick
         ></Roundy>
@@ -55,5 +58,4 @@ class Year extends React.Component {
     );
   }
 }
-
 export default Year;

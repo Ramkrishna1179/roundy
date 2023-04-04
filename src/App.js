@@ -1,16 +1,17 @@
-import React, { useState } from "react";
-import AudioPlayer from "./audioPlayer";
-import Month from './audioPlayer/Month';
-import Year from './audioPlayer/Year'
+import React from "react";
+// import AudioPlayer from "./audioPlayer";
+import DateComp from "./Components/Date";
+import Month from './Components/Month';
+import Year from './Components/Year'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
   // const [audioPlayerSources, setAudioPlayerSources] = useState([]);
 
   return (
-    <div className="container-fliud">
-    <div className="row">
+    <div className="container">
+    <div className="row mt-5">
      <div className="col-4">
-     <AudioPlayer />
+     <DateComp />
      </div>
      <div className="col-4">
      <Month />

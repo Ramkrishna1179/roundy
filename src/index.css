@@ -1,33 +1,51 @@
+
+
+body {
+  background: rgb(141, 158, 115) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
 }
-.video-js{
+/* .video-js{
   display: none;
-}
-.text{
-  margin-top: 105px;
+} */
+.Value{
+  margin-top:60px;
   margin-bottom: 1rem;
-  position: fixed;
-  padding-top: -91px;
-  margin-left: 165px;
+  position: absolute;
+  margin-left: 147px;
   font-size: 45px;
+  background-image: linear-gradient(to left,  blue,green, orange, red) !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+};
+#month{
+  margin-top:75px !important;
+  margin-bottom: 1rem;
+  position: absolute;
+  margin-left: 162px;
+  font-size: 45px;
+  background-image: linear-gradient(to left,  blue,green, orange, red) !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.monthvalue{
+  margin-top:60px !important;
+  margin-bottom: 1rem;
+  position: absolute;
+  margin-left: 135px;
+  font-size: 45px;
+  background-image: linear-gradient(to left,  blue,green, orange, red) !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 };
 
-
-
-/* .eiuaRt .sliderHandle:after {
-  content: '';
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  position: absolute;
-  right: 0px !important;
-  background: linear-gradient(to top,#fff,#f2f2f2);
-  border: 1px solid #ccc;
-  top: 0px !important;
-  -webkit-transform: all ease 0.4s;
-  -ms-transform: all ease 0.4s;
-  transform: all ease 0.4s;
-} */
